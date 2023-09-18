@@ -1,8 +1,7 @@
 
 
 public class FuncionesGenerales {
-  
-	
+
 	public static String cambiaFormatoYYYYMMDD(String fecha){
 		String s= null;
 		String [] arr = fecha.split("-");
