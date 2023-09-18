@@ -1,3 +1,4 @@
+import java.io.File;
 public class FuncionesGenerales {
   
     public static void deleteDirectory(File directory) {
