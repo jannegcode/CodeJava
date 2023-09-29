@@ -116,5 +116,23 @@ public class FileZIP {
         fos.close();
     }
 
+// Este método es para poder converir un archivo que traes de JSP a bytes y poderlo adjuntar en un correo. 
+	public static void FiletoByteCorreo() throws IOException {
+		FileItem itemPago;
+//		if (request.getAttribute("filePago") != null) {
+//			itemPago = (FileItem) request.getAttribute("filePago");
+//			InputStream is = itemPago.getInputStream();
+//			String [] ext = itemPago.getContentType().split("/");
+//			byte[] comprobantePago = IOUtils.toByteArray(is);
+//			if (comprobantePago!=null){
+//				MimeBodyPart attachment = new MimeBodyPart();
+//				javax.activation.DataSource source = new BufferedDataSource(comprobantePago,"attachment");
+//				attachment.setDataHandler(new DataHandler(source));
+//				attachment.setFileName("Pago." + ext[1]);
+//				mp.addBodyPart(attachment);
+//		 	}
+//		}
+	}
+
 
 }
