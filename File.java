@@ -46,7 +46,7 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-public class FileZIP {
+public class File {
 
    // Extraer archivos ZIP
 	public static boolean unzip(String ZipFilePath, String DestFilePath) throws IOException {
