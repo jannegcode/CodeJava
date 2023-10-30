@@ -134,5 +134,10 @@ public class File {
 //		}
 	}
 
+	public static String obtenerRuta(){
+	   String directorio = new File ("WebContent/WEB-INF/lib").getAbsolutePath();
+	   return directorio;
+	}
+
 
 }
